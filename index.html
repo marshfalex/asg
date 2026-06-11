@@ -427,8 +427,11 @@
           <div class="t"><b>LinkedIn</b><a href="https://www.linkedin.com/in/bill-alexander-72668b7/" target="_blank" rel="noopener">Connect with Bill Alexander</a></div>
         </div>
       </div>
-      <form class="reveal" action="https://formspree.io/f/xnjygjyn" method="POST">
+      <form class="reveal" action="https://formsubmit.co/bill@alexandersalesgroup.com" method="POST" enctype="multipart/form-data">
         <input type="hidden" name="_subject" value="New inquiry from alexandersalesgroup.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://alexandersalesgroup.com/#contact">
+        <input type="text" name="_honey" style="display:none">
         <div class="form-row">
           <div class="field"><label for="fn">First Name *</label><input id="fn" name="first_name" required placeholder="Jane"></div>
           <div class="field"><label for="ln">Last Name *</label><input id="ln" name="last_name" required placeholder="Doe"></div>
@@ -442,6 +445,7 @@
           <select id="pref" name="preferred_contact"><option>Email</option><option>Phone</option></select>
         </div>
         <div class="field"><label for="msg">How can we help? *</label><textarea id="msg" name="message" required placeholder="Tell us about your project or component needs..."></textarea></div>
+        <div class="field"><label for="att">Attach Drawings or Specs (optional, 10 MB max)</label><input id="att" name="attachment" type="file" accept=".pdf,.png,.jpg,.jpeg,.step,.stp,.dxf,.zip"></div>
         <button class="btn btn-primary" type="submit" style="width:100%">Send Message</button>
       </form>
     </div>
