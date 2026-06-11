@@ -66,6 +66,8 @@ nav.menu > a:hover::after{width:100%}
 .content-img img{border-radius:var(--radius);box-shadow:var(--shadow);width:100%}
 .content-img figcaption{font-size:13.5px;color:var(--gray);margin-top:10px;font-style:italic}
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+.gallery.two{grid-template-columns:repeat(2,1fr)}
+.gallery.two img{height:230px}
 .gallery img{border-radius:12px;height:180px;width:100%;object-fit:cover;box-shadow:var(--shadow);transition:transform .3s}
 .gallery img:hover{transform:scale(1.04)}
 .table-wrap{overflow-x:auto;margin:20px 0;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
@@ -83,8 +85,9 @@ tbody tr:hover{background:var(--teal-light)}
 .side-card.dark{background:var(--navy);border:none;color:#c9d8ea}
 .side-card.dark h4{color:#fff}
 .side-card.dark p{font-size:14.5px;margin-bottom:18px}
-.side-phone{display:block;font-family:'Sora';font-size:20px;font-weight:700;color:#fff;margin-bottom:18px}
+.side-phone{display:flex;align-items:center;gap:10px;font-family:'Sora';font-size:20px;font-weight:700;color:#fff;margin-bottom:18px}
 .side-phone:hover{color:var(--teal)}
+.side-phone svg{width:20px;height:20px;stroke:var(--teal);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
 .svc-list{list-style:none;display:grid;gap:4px}
 .svc-list a{display:block;padding:10px 14px;border-radius:9px;font-weight:600;font-size:14.5px;color:var(--ink);transition:all .2s}
 .svc-list a:hover{background:var(--teal-light);color:var(--teal-dark)}
@@ -116,8 +119,20 @@ footer a:hover{color:var(--teal)}
   .drop-menu{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:none;padding:0 0 0 16px}
 }
 @media(max-width:600px){
-  .foot-grid{grid-template-columns:1fr}
-  .gallery{grid-template-columns:1fr}
-  .topbar .right span.fax{display:none}
-  .page-body{padding:48px 0 64px}
+  .container{padding:0 18px}
+  .foot-grid{grid-template-columns:1fr;gap:32px}
+  .gallery,.gallery.two{grid-template-columns:1fr}
+  .gallery img,.gallery.two img{height:210px}
+  .topbar .container{justify-content:center}
+  .topbar .container > div:first-child{display:none}
+  .topbar .right{gap:24px}
+  .page-hero{padding:56px 0 44px}
+  .page-body{padding:44px 0 60px}
+  .content .lead{font-size:17.5px}
+  .content h2{font-size:23px}
+  .side-card{padding:22px}
+  .crumbs{font-size:13px}
+  .cta-band{padding:60px 0}
+  .cta-band .btn{width:calc(100% - 36px);justify-content:center}
+  th,td{padding:9px 11px}
 }
