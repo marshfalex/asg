@@ -54,7 +54,8 @@ nav.menu > a:hover::after{width:100%}
 
 /* Page body */
 .page-body{padding:72px 0 96px}
-.layout{display:grid;grid-template-columns:1fr 340px;gap:56px;align-items:start}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:56px;align-items:start}
+.layout > *{min-width:0}
 .content .lead{font-size:19px;color:var(--navy);font-weight:500;margin-bottom:28px}
 .content h2{font-size:27px;margin:40px 0 16px}
 .content h3{font-size:20px;margin:30px 0 12px}
