@@ -1,0 +1,34 @@
+# Alexander Sales Group
+
+> Alexander Sales Group is a manufacturers' representative agency based in St. Paul, Minnesota that supplies custom-engineered components for medical device OEMs and contract manufacturers. Led by Bill Alexander, the agency serves Minnesota's Medical Alley, the Twin Cities metro, Wisconsin, and the Upper Midwest, connecting medtech companies with specialized manufacturers across tubing, wire, coils, mandrels, balloons, laser machining, and catheter processing.
+
+## Contact
+- Phone: 612-501-0415
+- Email: bill@alexandersalesgroup.com
+- Address: 2145 University Ave. W, Suite #203, St. Paul, MN 55114
+- Service area: St. Paul, Minneapolis, Maple Grove, Plymouth, Brooklyn Park, Mounds View, Arden Hills, Roseville, the Twin Cities Metropolitan Area, Minnesota's Medical Alley, Wisconsin, and the Upper Midwest
+
+## Products & Services
+- [Catheter Liners & FEP Heat Shrink](https://alexandersalesgroup.com/catheter-liners.html): PTFE etched thin-wall liners and FEP heat shrink produced in Class 10,000 / ISO 7 cleanrooms.
+- [Medical Tubing](https://alexandersalesgroup.com/medical-tubing.html): Single-lumen, multi-lumen, bump, and multi-layer thermoplastic extrusion (Pebax, urethanes, nylon, ChronoPrene).
+- [Catheter Tip Forming & RF Welding](https://alexandersalesgroup.com/catheter-tip-forming-and-rf-welding.html): RF tip-forming for precise, repeatable catheter tip geometry and welded assemblies.
+- [Laser Machining](https://alexandersalesgroup.com/laser-machining.html): Laser cutting, ablation, welding, and hole drilling with quick-turn lead times (via Proto Lase, Maple Grove, MN).
+- [Medical Balloons](https://alexandersalesgroup.com/medical-balloons.html): High-performance balloon development and manufacturing for minimally invasive catheter applications.
+- [Polyimide Tubing](https://alexandersalesgroup.com/polyimide-tubing.html): Ultra-thin-wall polyimide tubing, composite constructions, bondable top coats, and coated wire.
+- [Mandrels](https://alexandersalesgroup.com/mandrels.html): Custom precision mandrels from wire, rod, and tubing — nitinol, PTFE-coated, hollow tube, tool steel; tapers, tip forming, brazed assemblies.
+- [Micro Coils & Assemblies](https://alexandersalesgroup.com/micro-coils-assemblies.html): Custom round/flat wire coiling, multilayered and multi-filar coils, laser welding, coil assemblies (wire from .001", coil ODs from .005").
+- [Copper Wire & Silver Plated Wire](https://alexandersalesgroup.com/copper-silver-plated-wire.html): Any alloy, spec, or quantity — round, square, flat, shaped wire from 0.001"; gold, silver, nickel, copper, tin plating.
+- [Flat Wire & Custom Shaped Wire](https://alexandersalesgroup.com/flat-wire-custom-shaped-wire.html): Precision flat braid wire for catheters and braided devices; stocked Steeger sets ready to ship.
+
+## Manufacturing Partners
+- Parker (PTFE liners & heat shrink)
+- Keystone Medical Technologies (medical tubing & polyimide)
+- Proto Lase (laser processing)
+- Medical Component Specialists (mandrels)
+- Thermetic Products (micro coils)
+- Little Falls Alloys (specialty wire)
+- United Wire Company (flat braid wire)
+
+## Resources
+- [Home](https://alexandersalesgroup.com/)
+- [Sitemap](https://alexandersalesgroup.com/sitemap.xml)
