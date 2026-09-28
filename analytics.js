@@ -1,7 +1,7 @@
 // GoatCounter analytics: cookieless, no consent banner needed.
 // Set CODE to the site code from goatcounter.com (e.g. "alexandersales"). Empty = off.
 (function () {
-  var CODE = '';
+  var CODE = 'marshfalex';
   if (!CODE || location.hostname === 'localhost') return;
 
   var s = document.createElement('script');
