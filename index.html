@@ -292,7 +292,7 @@
       </div>
     </div>
     <figure class="hero-sheet">
-      <img src="images/hero-brand.png" alt="Alexander Sales Group — Serving Medtech Innovators in Medical Alley">
+      <img src="images/hero-brand.webp" alt="Alexander Sales Group — Serving Medtech Innovators in Medical Alley">
       <figcaption class="title-block"><span>Alexander Sales Group &middot; Medical Alley</span><span>MN &middot; WI</span></figcaption>
     </figure>
   </div>
@@ -302,8 +302,8 @@
 <section class="about" id="about">
   <div class="container about-grid">
     <div class="about-imgs reveal">
-      <img class="main" src="images/about-main.jpg" alt="Polyimide tubing">
-      <img class="float" src="images/about-detail.jpg" alt="Laser-cut flexible metal tube">
+      <img class="main" src="images/about-main.webp" alt="Polyimide tubing">
+      <img class="float" src="images/about-detail.webp" alt="Laser-cut flexible metal tube">
     </div>
     <div class="about-copy reveal">
       <span class="eyebrow">About Us</span>
@@ -400,6 +400,21 @@
   </div>
 </section>
 
+<!-- How it works -->
+<section class="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>From drawing to production, one contact</h2>
+    </div>
+    <ol class="steps reveal">
+      <li><h3>Send a drawing or spec</h3><p>A print, a sample, or a description of the part. A rough sketch is fine to start.</p></li>
+      <li><h3>Bill matches the manufacturer</h3><p>He knows each partner's capabilities and lead times, and routes your part to the one that fits.</p></li>
+      <li><h3>Quotes, samples, production</h3><p>Bill stays your point of contact from first quote through validation and volume orders.</p></li>
+    </ol>
+  </div>
+</section>
+
 <!-- Partners -->
 <section class="partners" id="partners">
   <div class="container">
@@ -409,7 +424,6 @@
       <p>We represent industry-leading manufacturers so you get specialized capability with a single, knowledgeable point of contact.</p>
     </div>
     <div class="partner-row reveal">
-      <span class="chip"><b>Parker</b><i>PTFE Liners &amp; Heat Shrink</i></span>
       <span class="chip"><b>Keystone Medical Technologies</b><i>Tubing</i></span>
       <span class="chip"><b>Proto Lase</b><i>Laser Processing</i></span>
       <span class="chip"><b>Medical Component Specialists</b><i>Mandrels</i></span>
@@ -466,8 +480,10 @@
       <form class="reveal" action="https://formsubmit.co/bill@alexandersalesgroup.com" method="POST" enctype="multipart/form-data">
         <input type="hidden" name="_subject" value="New inquiry from alexandersalesgroup.com">
         <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://alexandersalesgroup.com/#contact">
+        <input type="hidden" name="_next" value="https://alexandersalesgroup.com/?sent=1#contact">
         <input type="text" name="_honey" style="display:none">
+        <div class="form-sent" id="formSent" role="status" hidden><b>Message sent.</b> Bill will reply within one business day. For anything urgent, call <a href="tel:+16125010415">612-501-0415</a>.</div>
+        <input type="hidden" name="product" id="product">
         <div class="form-row">
           <div class="field"><label for="fn">First Name *</label><input id="fn" name="first_name" required placeholder="Jane"></div>
           <div class="field"><label for="ln">Last Name *</label><input id="ln" name="last_name" required placeholder="Doe"></div>
@@ -526,7 +542,7 @@
       </details>
       <details>
         <summary>Which manufacturers do you represent?</summary>
-        <div class="faq-a">Parker (PTFE liners &amp; heat shrink), Keystone Medical Technologies (tubing &amp; polyimide), Proto Lase (laser processing), Medical Component Specialists (mandrels), Thermetic Products (micro coils), Little Falls Alloys (specialty wire), and United Wire Company (flat braid wire).</div>
+        <div class="faq-a">Keystone Medical Technologies (tubing &amp; polyimide), Proto Lase (laser processing), Medical Component Specialists (mandrels), Thermetic Products (micro coils), Little Falls Alloys (specialty wire), United Wire Company (flat braid wire), and Thor Medical Automation (catheter manufacturing equipment).</div>
       </details>
       <details>
         <summary>What industries and applications do you support?</summary>
@@ -550,7 +566,7 @@
     { "@type": "Question", "name": "What products and services do you offer?", "acceptedAnswer": { "@type": "Answer", "text": "Catheter liners & FEP heat shrink, medical tubing, catheter manufacturing equipment, laser machining, medical balloons, polyimide tubing, mandrels, micro coils & assemblies, copper and silver plated wire, and flat & custom shaped wire." } },
     { "@type": "Question", "name": "Where are you located and what areas do you serve?", "acceptedAnswer": { "@type": "Answer", "text": "We are headquartered in St. Paul, MN and serve the Twin Cities metro and Minnesota's Medical Alley — including Minneapolis, Maple Grove, Plymouth, Brooklyn Park, Mounds View, Arden Hills, and Roseville — plus Wisconsin and the broader Upper Midwest." } },
     { "@type": "Question", "name": "What is a manufacturers' representative?", "acceptedAnswer": { "@type": "Answer", "text": "A manufacturers' representative is an independent agency that represents multiple specialized manufacturers, giving you a single, local point of contact to source components from best-in-class suppliers without managing many separate vendor relationships." } },
-    { "@type": "Question", "name": "Which manufacturers do you represent?", "acceptedAnswer": { "@type": "Answer", "text": "Parker (PTFE liners & heat shrink), Keystone Medical Technologies (tubing & polyimide), Proto Lase (laser processing), Medical Component Specialists (mandrels), Thermetic Products (micro coils), Little Falls Alloys (specialty wire), and United Wire Company (flat braid wire)." } },
+    { "@type": "Question", "name": "Which manufacturers do you represent?", "acceptedAnswer": { "@type": "Answer", "text": "Keystone Medical Technologies (tubing & polyimide), Proto Lase (laser processing), Medical Component Specialists (mandrels), Thermetic Products (micro coils), Little Falls Alloys (specialty wire), United Wire Company (flat braid wire), and Thor Medical Automation (catheter manufacturing equipment)." } },
     { "@type": "Question", "name": "What industries and applications do you support?", "acceptedAnswer": { "@type": "Answer", "text": "We support medical device OEMs and contract manufacturers building catheter-based, minimally invasive, and other precision medical devices." } },
     { "@type": "Question", "name": "How do I request a quote?", "acceptedAnswer": { "@type": "Answer", "text": "Call Bill Alexander at 612-501-0415, email bill@alexandersalesgroup.com, or use the contact form on this site. Sending drawings or specifications helps us respond quickly." } }
   ]
@@ -622,9 +638,21 @@
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
+
+  // Product quote links (index.html?product=...) and sent confirmation
+  const qs = new URLSearchParams(location.search);
+  const prod = qs.get('product');
+  if (prod) {
+    document.getElementById('product').value = prod;
+    const msg = document.getElementById('msg');
+    if (!msg.value) msg.value = 'Quote request: ' + prod + '\n\n';
+  }
+  if (qs.get('sent')) document.getElementById('formSent').hidden = false;
+
   // Close mobile menu on link click
   document.querySelectorAll('#menu a').forEach(a =>
     a.addEventListener('click', () => document.getElementById('menu').classList.remove('open')));
 </script>
+<nav class="callbar" aria-label="Quick contact"><a href="tel:+16125010415">Call Bill</a><a href="index.html#contact">Request a Quote</a></nav>
 </body>
 </html>

@@ -267,3 +267,27 @@ textarea{resize:vertical;min-height:120px}
 .card-ask:hover{background:var(--grid),var(--ink-2)}
 @media(max-width:960px){.card-ask{grid-column:span 2}}
 @media(max-width:600px){.card-ask{grid-column:auto}}
+
+/* Home: how it works (a real sequence, so numbered) */
+.how{padding-top:0}
+.steps{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--ink)}
+.steps li{counter-increment:step;padding:26px 28px 0 0;position:relative}
+.steps li::before{content:counter(step,decimal-leading-zero);display:block;font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--signal);margin-bottom:12px}
+.steps li + li{padding-left:28px;border-left:1px solid var(--rule)}
+.steps h3{font-size:22px;margin-bottom:8px}
+.steps p{color:var(--gray);font-size:15.5px}
+
+/* Form confirmation */
+.form-sent{border-left:3px solid var(--steel);background:var(--steel-light);padding:14px 16px;margin-bottom:22px;font-size:15px}
+.form-sent a{text-decoration:underline}
+
+/* Phone-only quick contact bar */
+.callbar{display:none}
+@media(max-width:600px){
+  .steps{grid-template-columns:1fr}
+  .steps li,.steps li + li{padding:22px 0;border-left:none;border-bottom:1px solid var(--rule)}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:90;background:var(--ink);border-top:2px solid var(--signal-bright);padding-bottom:env(safe-area-inset-bottom)}
+  .callbar a{padding:15px 10px;text-align:center;font-weight:600;font-size:15px;color:#fff}
+  .callbar a + a{background:var(--signal)}
+  body{padding-bottom:52px}
+}

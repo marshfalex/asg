@@ -21,13 +21,13 @@
 - [Flat Wire & Custom Shaped Wire](https://alexandersalesgroup.com/flat-wire-custom-shaped-wire.html): Precision flat braid wire for catheters and braided devices; stocked Steeger sets ready to ship.
 
 ## Manufacturing Partners
-- Parker (PTFE liners & heat shrink)
 - Keystone Medical Technologies (medical tubing & polyimide)
 - Proto Lase (laser processing)
 - Medical Component Specialists (mandrels)
 - Thermetic Products (micro coils)
 - Little Falls Alloys (specialty wire)
 - United Wire Company (flat braid wire)
+- Thor Medical Automation (catheter manufacturing equipment)
 
 ## Resources
 - [Home](https://alexandersalesgroup.com/)
