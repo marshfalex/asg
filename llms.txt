@@ -17,7 +17,6 @@
 - [Polyimide Tubing](https://alexandersalesgroup.com/polyimide-tubing): Ultra-thin-wall polyimide tubing, composite constructions, bondable top coats, and coated wire.
 - [Mandrels](https://alexandersalesgroup.com/mandrels): Custom precision mandrels from wire, rod, and tubing — nitinol, PTFE-coated, hollow tube, tool steel; tapers, tip forming, brazed assemblies.
 - [Micro Coils & Assemblies](https://alexandersalesgroup.com/micro-coils-assemblies): Custom round/flat wire coiling, multilayered and multi-filar coils, laser welding, coil assemblies (wire from .001", coil ODs from .005").
-- [Copper Wire & Silver Plated Wire](https://alexandersalesgroup.com/copper-silver-plated-wire): Any alloy, spec, or quantity — round, square, flat, shaped wire from 0.001"; gold, silver, nickel, copper, tin plating.
 - [Flat Wire & Custom Shaped Wire](https://alexandersalesgroup.com/flat-wire-custom-shaped-wire): Precision flat braid wire for catheters and braided devices; stocked Steeger sets ready to ship.
 
 ## Manufacturing Partners
@@ -25,7 +24,6 @@
 - Proto Lase (laser processing)
 - Medical Component Specialists (mandrels)
 - Thermetic Products (micro coils)
-- Little Falls Alloys (specialty wire)
 - United Wire Company (flat braid wire)
 - Thor Medical Automation (catheter manufacturing equipment)
 
