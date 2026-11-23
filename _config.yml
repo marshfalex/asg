@@ -1,0 +1,4 @@
+# GitHub Pages: keep repo-only files off the live site
+exclude:
+  - CLAUDE.md
+  - sync-test.txt
